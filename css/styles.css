@@ -28,11 +28,11 @@ ul>li>a:hover:after{
     width: 100%;
 }
 
-.about-me-backgrpound-color{
+.about-me-backgrpound-color,.service-bg,.portfolio-bg{
     background-color: #112240;
 
 }
-.about-me-container-backgrpound-color,button{
+.about-me-container-backgrpound-color,button,.service-part-background,.works-bg{
     background-color: #0a192f;
 }
 h6,button{
@@ -43,4 +43,33 @@ h6,button{
     font-size: 20px;
     text-align: justify;
     
+}
+.section-heading-colour{
+    color: #0578ff;
+    font-weight: 700;
+    font-size: 3rem;
+
+}
+.service-text-color{
+    color: #ccd6f6;
+    
+}
+
+.service-border-section-radius{
+    border-radius: 20px;
+}
+
+.service-text-hover:hover{
+    color: lightgrey;
+    transition:1s ;
+}
+
+
+/* portfolio section */
+
+.work-image-hover:hover img{
+    transform: scale(1.3);
+    transition: transform 1.5s;
+
+
 }
